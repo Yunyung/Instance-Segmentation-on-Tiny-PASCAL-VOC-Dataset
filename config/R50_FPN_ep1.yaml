@@ -1,0 +1,7 @@
+TRAIN:
+  MAX_ITER: 20000
+  LOG_OUTPUT_PATH: "log/R50-FPN_3x_MAXiter20000"
+  CONFIG_FILE_PATH: "detectron2/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml"
+  MODEL_WEIGHTS_PATH: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
+TEST:
+  MODEL_WEIGHTS_PATH_TEST: "log/R50-FPN_3x_MAXiter20000/model_final.pth"
