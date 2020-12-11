@@ -90,7 +90,7 @@ The trained model and log info will be saved in ```log``` folder . They will be 
 
 
 ## Inference
-Use trained model in [Training](#Training) stage to infer your testing dataset. For reproduct my submission without retrainig, the trained weights in experiment-3 (R101_FPN_ep3.yaml) provided in [Google Drive](https://drive.google.com/drive/folders/1l-2uqU6gG2DAUhnBbYDACEgnpx5RvfA9?usp=sharing) . Move this pre-trained file to ```log/R101-FPN_3x_MAXiter50000/model_final.pth```
+Use trained model in [Training](#Training) stage to infer your testing dataset. For reproduct my submission without retrainig, the trained weights in experiment-3 (R101_FPN_ep3.yaml) provided in [Google Drive](https://drive.google.com/drive/folders/1l-2uqU6gG2DAUhnBbYDACEgnpx5RvfA9?usp=sharing) . Move this pre-trained file to ```log/R101-FPN_3x_MAXiter50000/model_final.pth```, so you need to create ```log/R101-FPN_3x_MAXiter50000``` manually in root.
 
 Run:
 ```
