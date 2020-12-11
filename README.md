@@ -85,7 +85,7 @@ For instance:
 python train.py -e "config/R101_FPN_ep3.yaml" 
 ```
 
-The trained model and log info will be saved in ```log``` folder . They will be named as ```model_final.pth``` and ```metrics.json```. It's worth noting that train.py will create ```log``` folder automatically, so don't worry about that.
+The trained model and log info will be saved in ```log``` folder . They will be named as ```model_final.pth``` and ```metrics.json```. It's worth noting that [train.py](train.py) will create ```log``` folder automatically, so you don't need to worry about that.
 
 
 
