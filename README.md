@@ -24,8 +24,8 @@ To reproduct my submission without retrainig, do the following steps:
 ## Installation
 ### Requirements
 - Linux or macOS with Python ≥ 3.6
-- PyTorch ≥ 1.5 and torchvision that matches the PyTorch installation. You can install them together at pytorch.org to make sure of this
-- OpenCV is optional and needed by demo and visualization
+- PyTorch ≥ 1.5 and torchvision that matches the PyTorch installation. You can install them together at [pytorch.org](https://pytorch.org) to make sure of this
+- OpenCV is optional and needed by visualization
 
 ### Build Detectron2
 ```
