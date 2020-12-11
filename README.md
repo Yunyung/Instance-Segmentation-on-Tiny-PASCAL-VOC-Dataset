@@ -40,7 +40,7 @@ pip install opencv-python
 If you encounter any problem, you can see other installation methods from [office installation](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md).
 
 ## Download Official Dataset
-Download dataset from [Google drive](https://drive.google.com/drive/folders/1fGg03EdBAxjFumGHHNhMrz2sMLLH04FK)
+Download dataset from [Google drive](https://drive.google.com/drive/folders/1fGg03EdBAxjFumGHHNhMrz2sMLLH04FK). The data is in [COCO style format](https://cocodataset.org/#format-data).
 
 ## Project Structure
 ```
@@ -69,7 +69,7 @@ Root/
 ```
 
 ## Dataset Preparation
-[Download official dataset](#Download-Official-Dataset), then layout your directory and move downloaded dataset same as [Project Struture](#Project-Structure).
+[Download official dataset](#Download-Official-Dataset), then layout your directory and move downloaded dataset same as [Project Struture](#Project-Structure). The directory layout is same as COCO dataset folder structure.
 
 ## Training 
 There are some different configurations (experiments) for training process in ```config``` folder. All of them are based on [Mask R-CNN](https://arxiv.org/abs/1703.06870) and pre-trained on ImageNet.
