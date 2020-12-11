@@ -4,7 +4,7 @@
 
 This project is part of a series of projects for the course *Selected Topics in Visual Recognition using Deep Learning*. This Repository gathers the code for **instance segmentation** on tiny PASCAL VOC dataset.
 
-In this instance segmentation task, we use [Detectron2](https://github.com/facebookresearch/detectron2), an software system that implements state-of-the-art object detection algorithms, developed by Facebook AI Research to conquer this task. [Mask R-CNN [2]](https://arxiv.org/abs/1703.06870) is the main model architecture in our project. See [report.pdf](???) for the more details.
+In this instance segmentation task, we use [Detectron2](https://github.com/facebookresearch/detectron2), an software system that implements state-of-the-art object detection algorithms, developed by Facebook AI Research to conquer this task. [Mask R-CNN [2]](https://arxiv.org/abs/1703.06870) is the main model architecture in our project.
 
 ## Environment
 
@@ -90,7 +90,7 @@ The trained model and log info will be saved in ```log``` folder . They will be 
 
 
 ## Inference
-Use trained model in [Training](#Training) stage to infer your testing dataset. For reproduct my submission without retrainig, the trained weights in experiment-3 (R101_FPN_ep3.yaml) provided in ```log/R101-FPN_3x_MAXiter50000/model_final.pth``` .
+Use trained model in [Training](#Training) stage to infer your testing dataset. For reproduct my submission without retrainig, the trained weights in experiment-3 (R101_FPN_ep3.yaml) provided in [Google Drive](https://drive.google.com/file/d/1PL61mBFB39980HGskArUR7TcEUDWd1NL/view?usp=sharing) . Move this pre-trained file to ```log/R101-FPN_3x_MAXiter50000/model_final.pth```
 
 Run:
 ```
